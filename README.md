@@ -24,7 +24,6 @@ ece9785b8f8f        docker-haproxy-nginx_nginx1    "/docker-entrypoint.…"   5 
 
 ### HAproxy Stats
 ![GitHub Logo](Screenshot%202020-11-18%20at%2013.47.02.png)
-Format: ![Alt Text](url)
 
 ### LoadTest to HAProxy LoadBalancer
 ```
