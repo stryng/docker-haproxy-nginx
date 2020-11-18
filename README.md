@@ -1,4 +1,7 @@
-## Docker-Compose 1x HAProxy, 5x NginX for Load Distribution (LD=100/NGXC) - Horizontal Scaling
+## Docker-Compose - Load Distribution (LD=100/NGXC) - Horizontal Scaling
+## Tech Stack
+ - 1x HAProxy
+ - 5x NginX
 
 ### QA Badges
 ![Docker](https://github.com/stryng/docker-haproxy-nginx/workflows/Docker/badge.svg)
