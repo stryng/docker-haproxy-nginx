@@ -1,4 +1,7 @@
-## Docker with HAProxy and x5 NginX webserver containers to distribute the load equaly - Horizontal Scaling
+### Docker with HAProxy and x5 NginX webserver containers to distribute the load equaly - Horizontal Scaling
+
+### QA Badges
+![Docker](https://github.com/stryng/docker-haproxy-nginx/workflows/Docker/badge.svg)
 
 ### Usage
 
