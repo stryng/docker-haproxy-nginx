@@ -1,6 +1,13 @@
-## Docker with HAProxy and x5 NginX webserver containers to distribute the load equaly - Horizontal Scaling
+## Docker-Compose - Load Distribution (LD=100/NGXC) - Horizontal Scaling
+## Tech Stack
+ - 1x HAProxy
+ - 5x NginX
 
-### Usage
+### QA Badges
+ - Master Branch - ![Docker](https://github.com/stryng/docker-haproxy-nginx/workflows/Docker/badge.svg)
+ - Devel Branch  - ![Docker](https://github.com/stryng/docker-haproxy-nginx/workflows/Docker/badge.svg)
+
+### Usage - Source Clone and Deployment 
 
 ```bash
 # Cloning this repo
@@ -110,3 +117,5 @@ Percentage of the requests served within a certain time (ms)
   99%     60
  100%   1211 (longest request)
  ```
+### ChangeLog
+ - Added CI/CD Docker workflow pipeline for upon commit on this repo, the docker-compose.yml is used for QA Build and Deployment Audit.
