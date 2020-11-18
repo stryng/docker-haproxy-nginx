@@ -3,6 +3,18 @@
 ### Usage
 
 ```bash
+# Cloning this repo
+~/repos/ ● git clone https://github.com/stryng/docker-haproxy-nginx.git
+Cloning into 'docker-haproxy-nginx'...
+remote: Enumerating objects: 71, done.
+remote: Counting objects: 100% (71/71), done.
+remote: Compressing objects: 100% (58/58), done.
+remote: Total 95 (delta 34), reused 28 (delta 10), pack-reused 24
+Unpacking objects: 100% (95/95), 505.96 KiB | 1.33 MiB/s, done.
+
+~/repos/ ● cd docker-haproxy-nginx
+
+# Bringing docker-compose stack up
 ~/repos/docker-haproxy-nginx ● docker-compose up -d
 Creating network "docker-haproxy-nginx_default" with the default driver
 Creating docker-haproxy-nginx_nginx2_1  ... done
@@ -11,6 +23,8 @@ Creating docker-haproxy-nginx_haproxy_1 ... done
 Creating docker-haproxy-nginx_nginx3_1  ... done
 Creating docker-haproxy-nginx_nginx1_1  ... done
 Creating docker-haproxy-nginx_nginx5_1  ... done
+
+# Checking Containers Status
  ~/repos/docker-haproxy-nginx ● docker ps -a
  
 CONTAINER ID        IMAGE                          COMMAND                  CREATED             STATUS              PORTS                                          NAMES
