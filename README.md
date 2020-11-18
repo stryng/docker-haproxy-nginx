@@ -23,7 +23,7 @@ ece9785b8f8f        docker-haproxy-nginx_nginx1    "/docker-entrypoint.…"   5 
 ```
 
 ### HAproxy Stats
-https://github.com/stryng/docker-haproxy-nginx/blob/master/Screenshot%202020-11-18%20at%2013.47.02.png
+(Screenshot%202020-11-18%20at%2013.47.02.png)
 
 ### LoadTest to HAProxy LoadBalancer
 ```
