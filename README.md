@@ -4,8 +4,8 @@
  - 5x NginX
 
 ### QA Badges
-Master Branch - ![Docker](https://github.com/stryng/docker-haproxy-nginx/workflows/Docker/badge.svg)
-Devel Branch  - ![Docker](https://github.com/stryng/docker-haproxy-nginx/workflows/Docker/badge.svg)
+ - Master Branch - ![Docker](https://github.com/stryng/docker-haproxy-nginx/workflows/Docker/badge.svg)
+ - Devel Branch  - ![Docker](https://github.com/stryng/docker-haproxy-nginx/workflows/Docker/badge.svg)
 
 ### Usage - Source Clone and Deployment 
 
