@@ -24,8 +24,7 @@ ece9785b8f8f        docker-haproxy-nginx_nginx1    "/docker-entrypoint.…"   5 
 
 ### HAproxy Stats
 ![GitHub Logo](Screenshot%202020-11-18%20at%2013.47.02.png)
-
-### LoadTesting --> HAProxy LoadBalancer @tcp:80 --> targeting containers @tcp:80
+### LoadTesting --> HAProxy LoadBalancer @tcp:80 --> Targeting NginX Containers @tcp:80
 ```
 ~  ab -n 10000 -c 30 http://localhost/index.html
 This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
