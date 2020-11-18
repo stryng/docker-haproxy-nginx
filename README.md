@@ -1,4 +1,4 @@
-## Docker HAProxy x5 NginX Containers to Distribute the Load Evenly - Horizontal Scaling
+## Docker-Compose 1x HAProxy, 5x NginX for Load Distribution (LD=100/NGXC) - Horizontal Scaling
 
 ### QA Badges
 ![Docker](https://github.com/stryng/docker-haproxy-nginx/workflows/Docker/badge.svg)
