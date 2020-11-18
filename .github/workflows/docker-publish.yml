@@ -30,7 +30,7 @@ jobs:
         run: |
           if [ -f docker-compose.yml ]; then
             docker-compose --file docker-compose.yml build
-            docker-compose --file docker-compose.yml run sut
+            docker-compose up -d
           else
             docker build . --file Dockerfile
           fi
