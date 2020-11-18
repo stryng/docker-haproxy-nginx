@@ -24,6 +24,21 @@ ece9785b8f8f        docker-haproxy-nginx_nginx1    "/docker-entrypoint.…"   5 
 
 ### HAproxy Stats
 ![GitHub Logo](Screenshot%202020-11-18%20at%2013.47.02.png)
+
+### Checking HAProxy LB request iteration spread cross nginx containers
+```
+~ for x in {1..10}; do curl http://localhost/index.html; done
+From nginx2
+From nginx3
+From nginx4
+From nginx5
+From nginx1
+From nginx2
+From nginx3
+From nginx4
+From nginx5
+From nginx1
+```
 ### LoadTesting --> HAProxy LoadBalancer @tcp:80 --> Targeting NginX Containers @tcp:80
 ```
 ~  ab -n 10000 -c 30 http://localhost/index.html
