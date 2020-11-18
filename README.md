@@ -23,7 +23,7 @@ ece9785b8f8f        docker-haproxy-nginx_nginx1    "/docker-entrypoint.…"   5 
 ```
 
 ### HAproxy Stats
-![GitHub Logo](Screenshot%202020-11-18%20at%2013.47.02.png)
+![GitHub Logo](/docs/haproxy-stats.png)
 
 ### Checking HAProxy LB request iteration spread cross nginx containers
 ```
